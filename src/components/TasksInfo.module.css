@@ -2,13 +2,13 @@
   display: flex;
   margin-top: 4rem;
   margin-bottom: 1.5rem;
-
   justify-content: center;
 }
 .taskInfoContent {
   width: 46rem;
 
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 .taskInfoContent strong:nth-child(1) {
@@ -24,4 +24,9 @@
   background: var(--gray-400);
   border-radius: 999px;
   padding: 0.125rem 0.875rem;
+}
+@media (max-width: 768px) {
+  .tasksInfo {
+    padding: 0 1rem;
+  }
 }

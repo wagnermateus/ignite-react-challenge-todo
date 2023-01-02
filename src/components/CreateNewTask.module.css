@@ -43,3 +43,14 @@
 main:last-child {
   margin-bottom: 16.75rem;
 }
+@media (max-width: 768px) {
+  .newTask {
+    padding: 0 1rem;
+  }
+  .newTask button {
+    padding: 0 0.2rem;
+  }
+  .newTask input[type="text"] {
+    width: 85.5%;
+  }
+}
